@@ -1,2 +1,3 @@
-# ng-storybook-sample
-Angular + storybook
+# NgStorybook
+
+- https://storybook.js.org/docs/guides/guide-angular/
