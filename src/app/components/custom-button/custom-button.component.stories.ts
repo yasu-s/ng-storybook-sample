@@ -1,9 +1,17 @@
 import { action } from '@storybook/addon-actions';
 
+import { withKnobs, text } from '@storybook/addon-knobs';
+
 import { CustomButtonComponent } from './custom-button.component';
 
 export default {
   title: 'Custom/buttons',
+  decorators: [withKnobs],
+  parameters: {
+    knobs: {
+      disableDebounce: true,
+    },
+  },
 };
 
 export const CustomButton = () => ({
@@ -18,5 +26,12 @@ export const CustomButton2 = () => ({
   props: {
     label: 'hoge2',
     btnClick: action('btnClick'),
+  },
+});
+
+export const CustomButton3 = () => ({
+  component: CustomButtonComponent,
+  props: {
+    label: text('label', 'hoge3'),
   },
 });

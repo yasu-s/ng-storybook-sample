@@ -93,6 +93,7 @@
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true,
     "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
     "prettier": [
       true, {
         "printWidth": 140,
