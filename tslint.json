@@ -25,7 +25,7 @@
     "component-selector": [
       true,
       "element",
-      "app",
+      "custom",
       "kebab-case"
     ],
     "import-blacklist": [
@@ -92,6 +92,7 @@
     "template-no-negated-async": true,
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true,
+    "no-implicit-dependencies": false,
     "prettier": [
       true, {
         "printWidth": 140,
