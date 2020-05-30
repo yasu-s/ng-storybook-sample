@@ -1,3 +1,5 @@
+import { action } from '@storybook/addon-actions';
+
 import { CustomButtonComponent } from './custom-button.component';
 
 export default {
@@ -6,4 +8,5 @@ export default {
 
 export const Basic = () => ({
   component: CustomButtonComponent,
+  props: { onClick: action('hoge') },
 });
