@@ -3,7 +3,7 @@
 ## 概要
 
 - Angular + Storybook のサンプルです。
-- `@storybook/addon-action` を使用しています。
+- `@storybook/addon-actions` を使用しています。
 
 ## 実行環境
 
@@ -14,7 +14,7 @@
 
 - Angular - 9.1.x
 - @storybook/angular - 5.3.x
-- @storybook/addon-action - 5.3.x
+- @storybook/addon-actions - 5.3.x
 
 ## 動作確認
 
