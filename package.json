@@ -9,8 +9,8 @@
     "lint": "ng lint",
     "compodoc": "compodoc -p tsconfig.json -d ./docs -s",
     "compodoc:json": "compodoc -p tsconfig.json -d ./.storybook -e json",
-    "storybook": "start-storybook -p 8080",
-    "storybook:build": "compodoc:json && start-storybook -p 8080"
+    "storybook:serve": "start-storybook -p 8080",
+    "storybook": "yarn compodoc:json && yarn storybook:serve"
   },
   "private": true,
   "dependencies": {

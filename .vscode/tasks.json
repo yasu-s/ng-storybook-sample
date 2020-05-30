@@ -11,7 +11,7 @@
     {
       "label": "storybook",
       "type": "shell",
-      "command": "yarn storybook",
+      "command": "yarn storybook:serve",
       "dependsOn": ["compodoc:json"]
     }
   ]
