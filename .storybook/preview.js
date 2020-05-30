@@ -1,4 +1,3 @@
-import { addParameters } from '@storybook/angular';
 import { setCompodocJson } from '@storybook/addon-docs/angular';
 
 // @ts-ignore
@@ -6,10 +5,3 @@ import { setCompodocJson } from '@storybook/addon-docs/angular';
 import docJson from './documentation.json';
 
 setCompodocJson(docJson);
-
-addParameters({
-  docs: {
-    // inlineStories: true,
-    iframeHeight: '60px',
-  },
-});
