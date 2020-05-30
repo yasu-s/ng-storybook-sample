@@ -2,7 +2,7 @@ import { Component, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'custom-button',
-  templateUrl: './custom-button.component.html',
+  template: `<button (click)="onClick()">{{ label }}</button>`,
 })
 export class CustomButtonComponent {
   /** ラベル */
