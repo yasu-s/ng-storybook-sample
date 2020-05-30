@@ -11,4 +11,4 @@ export const Basic = (args: any) => ({
   component: CustomButtonComponent,
   props: args,
 });
-Basic.args = { label: 'hoge', onClick: action('hoge') };
+Basic.args = { label: 'hoge', btnClick: action('hoge') };

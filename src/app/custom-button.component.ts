@@ -2,7 +2,7 @@ import { Component, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'custom-button',
-  templateUrl: './custom-button.component.html',
+  template: `<button (click)="onClick()">{{ label }}</button>`,
 })
 export class CustomButtonComponent {
   /** ラベル */
@@ -14,6 +14,6 @@ export class CustomButtonComponent {
   @Output() btnClick = new EventEmitter();
 
   onClick(): void {
-    this.btnClick.emit();
+    this.btnClick.emit(this.label);
   }
 }
