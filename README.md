@@ -29,13 +29,13 @@ cd ng-storybook-sample
 git checkout develop/minimum
 ```
 
-### 3. パッケージインストール  
+### 3. パッケージインストール
 
 ```bash
 yarn
 ```
 
-### 4. サンプルの起動  
+### 4. サンプルの起動
 
 ```bash
 yarn storybook
