@@ -14,7 +14,6 @@
 - Angular - 9.1.x
 - @compodoc/compodoc - 1.1.x
 - @storybook/angular - 6.0.0-beta.17
-- @storybook/addon-actions - 6.0.0-beta.17
 - @storybook/addon-controls - 6.0.0-beta.17
 - @storybook/addon-docs - 6.0.0-beta.17
 
@@ -26,14 +25,20 @@
 git clone https://github.com/yasu-s/ng-storybook-sample.git
 ```
 
-### 2. パッケージインストール  
+### 2. ブランチ切り替え
 
 ```bash
 cd ng-storybook-sample
+git checkout develop/controls
+```
+
+### 3. パッケージインストール  
+
+```bash
 yarn
 ```
 
-### 3. サンプルの起動  
+### 4. サンプルの起動  
 
 ```bash
 yarn storybook
@@ -43,7 +48,7 @@ yarn storybook
 
 - http://localhost:8080/
 
-![storybook2](https://user-images.githubusercontent.com/2668146/83318537-d9109180-a270-11ea-8662-75ae2d8833eb.png)
+![storybook3](https://user-images.githubusercontent.com/2668146/83319474-c484c700-a279-11ea-830e-79336c1321ec.png)
 
 ## 参考URL
 
