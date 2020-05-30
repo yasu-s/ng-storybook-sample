@@ -12,7 +12,7 @@
 ## 使用ライブラリ
 
 - Angular - 9.1.x
-- @compodoc/compodo - 1.1.x
+- @compodoc/compodoc - 1.1.x
 - @storybook/angular - 6.0.0-beta.17
 - @storybook/addon-actions - 6.0.0-beta.17
 - @storybook/addon-controls - 6.0.0-beta.17
@@ -43,7 +43,7 @@ yarn storybook
 
 - http://localhost:8080/
 
-![storybook1](https://user-images.githubusercontent.com/2668146/83317743-d78f9b00-a269-11ea-99d5-def27ff33555.png)
+![storybook2](https://user-images.githubusercontent.com/2668146/83318537-d9109180-a270-11ea-8662-75ae2d8833eb.png)
 
 ## 参考URL
 
