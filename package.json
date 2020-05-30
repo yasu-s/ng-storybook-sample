@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "storybook": "start-storybook -p 8080"
+    "compodoc": "compodoc -p tsconfig.json -d ./docs -s",
+    "compodoc:json": "compodoc -p tsconfig.json -d ./.storybook -e json",
+    "storybook": "start-storybook -p 8080",
+    "storybook:build": "compodoc:json && start-storybook -p 8080"
   },
   "private": true,
   "dependencies": {
@@ -31,11 +34,11 @@
     "@angular/compiler-cli": "~9.1.9",
     "@angular/language-service": "~9.1.9",
     "@babel/core": "^7.10.0",
-    "@storybook/addon-actions": "^5.3.19",
-    "@storybook/addon-docs": "^5.3.19",
-    "@storybook/addon-knobs": "^5.3.19",
-    "@storybook/addon-storysource": "^5.3.19",
-    "@storybook/angular": "^5.3.19",
+    "@compodoc/compodoc": "^1.1.11",
+    "@storybook/addon-actions": "6.0.0-beta.17",
+    "@storybook/addon-controls": "6.0.0-beta.17",
+    "@storybook/addon-docs": "6.0.0-beta.17",
+    "@storybook/angular": "6.0.0-beta.17",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",

@@ -1,37 +1,15 @@
 import { action } from '@storybook/addon-actions';
 
-import { withKnobs, text } from '@storybook/addon-knobs';
-
 import { CustomButtonComponent } from './custom-button.component';
 
 export default {
-  title: 'Custom/buttons',
-  decorators: [withKnobs],
-  parameters: {
-    knobs: {
-      disableDebounce: true,
-    },
-  },
+  title: 'CustomButton',
+  component: CustomButtonComponent,
+  parameters: { docs: { iframeHeight: 120 } },
 };
 
-export const CustomButton = () => ({
+export const Basic = (args: any) => ({
   component: CustomButtonComponent,
-  props: {
-    label: 'hoge',
-  },
+  props: args,
 });
-
-export const CustomButton2 = () => ({
-  component: CustomButtonComponent,
-  props: {
-    label: 'hoge2',
-    btnClick: action('btnClick'),
-  },
-});
-
-export const CustomButton3 = () => ({
-  component: CustomButtonComponent,
-  props: {
-    label: text('label', 'hoge3'),
-  },
-});
+Basic.args = { label: 'hoge', onClick: action('hoge') };

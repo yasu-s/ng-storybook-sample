@@ -5,7 +5,12 @@ import { Component, Input, EventEmitter, Output } from '@angular/core';
   templateUrl: './custom-button.component.html',
 })
 export class CustomButtonComponent {
+  /** ラベル */
   @Input() label = 'button';
+
+  @Input() hige = 'a';
+
+  /** クリックイベント */
   @Output() btnClick = new EventEmitter();
 
   onClick(): void {
