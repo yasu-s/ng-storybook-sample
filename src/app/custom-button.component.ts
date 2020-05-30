@@ -9,9 +9,9 @@ export class CustomButtonComponent {
   @Input() label = 'button';
 
   /** クリックイベント */
-  @Output() btnClick = new EventEmitter();
+  @Output() btnClick = new EventEmitter<string>();
 
   onClick(): void {
-    this.btnClick.emit();
+    this.btnClick.emit(this.label);
   }
 }

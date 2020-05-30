@@ -8,5 +8,5 @@ export default {
 
 export const Basic = () => ({
   component: CustomButtonComponent,
-  props: { onClick: action('hoge') },
+  props: { btnClick: action('hoge') },
 });
