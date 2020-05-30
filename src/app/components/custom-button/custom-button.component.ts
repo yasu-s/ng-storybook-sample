@@ -8,8 +8,6 @@ export class CustomButtonComponent {
   /** ラベル */
   @Input() label = 'button';
 
-  @Input() hige = 'a';
-
   /** クリックイベント */
   @Output() btnClick = new EventEmitter();
 
