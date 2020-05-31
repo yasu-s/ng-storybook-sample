@@ -1,11 +1,12 @@
 import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 import { moduleMetadata } from '@storybook/angular';
 
 export default {
   title: 'MatButton',
   decorators: [
     moduleMetadata({
-      imports: [MatButtonModule],
+      imports: [MatButtonModule, MatIconModule],
     }),
   ],
 };
@@ -40,4 +41,12 @@ export const FlatBasic = () => ({
 
 export const FlatPrimary = () => ({
   template: '<button mat-flat-button color="primary">Basic</button>',
+});
+
+export const Icon = () => ({
+  template: `
+    <button mat-icon-button color="primary">
+      <mat-icon>home</mat-icon>
+    </button>
+  `,
 });
