@@ -4,15 +4,26 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "yarn:install",
+      "type": "shell",
+      "command": "yarn"
+    },
+    {
       "label": "compodoc:json",
       "type": "shell",
       "command": "yarn compodoc:json"
     },
     {
+      "label": "storybook:serve",
+      "type": "shell",
+      "command": "yarn storybook:serve"
+    },
+    {
       "label": "storybook",
       "type": "shell",
       "command": "yarn storybook:serve",
-      "dependsOn": ["compodoc:json"]
+      "dependsOn": ["yarn:install", "compodoc:json"],
+      "dependsOrder": "sequence"
     }
   ]
 }
