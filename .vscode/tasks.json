@@ -4,15 +4,15 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "compodoc:json",
+      "label": "yarn install",
       "type": "shell",
-      "command": "yarn compodoc:json"
+      "command": "yarn",
     },
     {
       "label": "storybook",
       "type": "shell",
-      "command": "yarn storybook:serve",
-      "dependsOn": ["compodoc:json"]
+      "command": "yarn storybook",
+      "dependsOn": ["yarn install"]
     }
   ]
 }

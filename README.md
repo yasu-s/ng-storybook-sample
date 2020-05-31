@@ -3,6 +3,7 @@
 ## 概要
 
 - Angular + Storybook のサンプルです。
+- Angular Materialのコンポーネントを表示しています。
 
 ## 実行環境
 
@@ -12,11 +13,7 @@
 ## 使用ライブラリ
 
 - Angular - 9.1.x
-- @compodoc/compodoc - 1.1.x
 - @storybook/angular - 6.0.0-beta.17
-- @storybook/addon-actions - 6.0.0-beta.17
-- @storybook/addon-controls - 6.0.0-beta.17
-- @storybook/addon-docs - 6.0.0-beta.17
 
 ## 動作確認
 
@@ -26,10 +23,16 @@
 git clone https://github.com/yasu-s/ng-storybook-sample.git
 ```
 
-### 2. パッケージインストール  
+### 2. ブランチ切り替え
 
 ```bash
 cd ng-storybook-sample
+git checkout develop/material
+```
+
+### 2. パッケージインストール  
+
+```bash
 yarn
 ```
 
