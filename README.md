@@ -13,6 +13,7 @@
 ## 使用ライブラリ
 
 - Angular - 9.1.x
+- Angular Material - 9.2.x
 - @storybook/angular - 6.0.0-beta.17
 
 ## 動作確認
