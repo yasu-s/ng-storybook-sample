@@ -46,7 +46,7 @@ yarn storybook
 
 - http://localhost:8080/
 
-![storybook2](https://user-images.githubusercontent.com/2668146/83318537-d9109180-a270-11ea-8662-75ae2d8833eb.png)
+![storybook4](https://user-images.githubusercontent.com/2668146/83343250-aaf38600-a332-11ea-99ed-016c927a9685.png)
 
 ## 参考URL
 
