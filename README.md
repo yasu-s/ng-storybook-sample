@@ -13,9 +13,9 @@
 
 - Angular - 9.1.x
 - @compodoc/compodoc - 1.1.x
-- @storybook/angular - 6.0.0-beta.20
-- @storybook/addon-controls - 6.0.0-beta.20
-- @storybook/addon-docs - 6.0.0-beta.20
+- @storybook/angular - 6.0.0-beta.31
+- @storybook/addon-controls - 6.0.0-beta.31
+- @storybook/addon-docs - 6.0.0-beta.31
 
 ## 動作確認
 
