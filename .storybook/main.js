@@ -4,5 +4,6 @@ module.exports = {
     '@storybook/addon-docs',
     '@storybook/addon-controls',
     '@storybook/addon-actions',
+    '@storybook/addon-backgrounds',
   ]
 };
