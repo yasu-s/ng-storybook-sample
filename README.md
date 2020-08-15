@@ -11,7 +11,7 @@
 
 ## 使用ライブラリ
 
-- Angular - 9.1.x
+- Angular - 10.0.x
 - @compodoc/compodoc - 1.1.x
 - @storybook/angular - 6.0.x
 - @storybook/addon-actions - 6.0.x
